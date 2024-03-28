@@ -1,0 +1,860 @@
+header{
+  width:auto;
+  height: 100px;
+  background-color: antiquewhite;
+  font-size:40px;
+  text-align: center;
+  
+  font-family: "JetBrains Mono",monospace;
+  font-weight:bolder;
+  border-radius: 6px;
+  margin: auto;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+header a:visited{
+text-decoration: none;
+color: inherit;
+}
+
+
+.h3{
+  display: block;
+  margin-left:-25%;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #333;
+font-family: Arial;
+align-items: center;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+margin-bottom: 25px;
+}
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+display: flex;
+justify-content: center;
+}
+
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  
+  background-color: #36395A;
+ 
+  border-width: 0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+border-radius: 10px;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.r{
+  float: right;
+}
+
+
+
+/* CSS */
+
+.button-30 {
+width: 500px;
+align-items: center;
+appearance: none;
+background-color: #FCFCFD;
+border-radius: 4px;
+border-width: 0;
+box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+box-sizing: border-box;
+color: #36395A;
+cursor: pointer;
+display: inline-flex;
+font-family: "JetBrains Mono",monospace;
+height: 48px;
+justify-content: center;
+line-height: 1;
+list-style: none;
+overflow: hidden;
+padding-left: 16px;
+padding-right: 16px;
+position: relative;
+text-align: left;
+text-decoration: none;
+transition: box-shadow .15s,transform .15s;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+will-change: box-shadow,transform;
+font-size: 18px;
+display: flex;
+justify-content: center;
+margin-bottom: 25px;
+
+}
+
+.button-30:focus {
+box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+transform: translateY(-2px);
+}
+
+.button-30:active {
+box-shadow: #D6D6E7 0 3px 7px inset;
+transform: translateY(2px);
+}
+
+.gap{
+display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 0 ;
+
+}
+
+.gap1{
+display: block;
+align-items: center;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+
+ 
+}
+
+
+
+.flexbox{
+  display: block;
+  float: right;
+  width: 400px;
+  height: 600px;
+  background-color:blanchedalmond;
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+  font-family: "JetBrains Mono",monospace;
+  border-radius: 6px;
+  
+}
+
+navlist{
+  display: none;
+
+}
+
+section
+{
+  
+  display: flex;
+  margin: auto;
+  z-index: -9999;
+
+}
+
+section .button-30{
+z-index: -9999;
+}
+
+aside
+{
+  display : block;
+  float: right;
+  width : a;
+  height : 40em;
+  border-width : 0.1em;
+  margin: auto;
+  border-color : black;
+  margin-right: 5%;
+  margin-top: 7%;
+  border-radius: 4px;
+}
+
+
+.flexbox1
+{
+display: flexbox;
+width: 300px;
+height:500px;
+background-color: #36395A;
+align-content: center;
+margin: auto;
+border-radius: 4px;
+}
+
+
+/* /* footer {
+
+width: 100%;
+height: 40px;   Height of the footer
+background:#000000;
+border-radius: 6px;
+display: block;
+
+font-family: 'Courier New', Courier, monospace;
+font-weight: bolder; 
+
+} */
+
+
+
+article{
+text-align: center;
+display: block;
+position: relative;
+bottom: auto;
+font-family: monospace;
+}
+
+th{
+width: 50%;
+}
+td{
+width: 100%;
+}
+
+.button {
+width: 500px;
+align-items: center;
+
+
+border-radius: 4px;
+border-width: 0;
+
+color:#333;
+
+display: inline-flex;
+font-family: "JetBrains Mono",monospace;
+height: 48px;
+justify-content: center;
+
+padding-left: 16px;
+padding-right: 16px;
+position: relative;
+text-align: left;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+.button1 {
+width: 300px;
+align-items: center;
+
+
+border-radius: 4px;
+border-width: 0;
+
+color:#333;
+
+display: block;
+font-family: "JetBrains Mono",monospace;
+height: 48px;
+justify-content: center;
+
+padding-left: 16px;
+padding-right: 16px;
+position: relative;
+text-align: center;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+
+.button2 {
+width: 300px;
+align-items: center;
+
+
+border-radius: 4px;
+border-width: 0;
+
+color:#333;
+
+display: block;
+font-family: "JetBrains Mono",monospace;
+height: 48px;
+justify-content: center;
+padding-bottom: 100px;
+
+padding-left: 16px;
+padding-right: 16px;
+position: relative;
+text-align: center;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.toggle_btn{
+color:#fff;
+font-size: 1.5rem;
+cursor: pointer;
+display: none;
+}
+
+.navlist {
+display: none;
+}
+
+.dropdown_menu{
+display: none;
+}
+
+.dropdown_menu1{
+display:none;
+}
+.menubar {
+display: none;
+}
+.checkbox{
+display: none;
+}
+
+.container{
+display:none;
+}
+
+@media (max-width:900px) {
+iframe{
+  width: 100%;  
+  }
+
+.button-30 {
+  width: 300px;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.gap{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0 ;
+  
+}
+
+.gap1{
+  display: block;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  
+   
+}
+
+header{
+  width:auto;
+  height: 70px;
+  background-color: antiquewhite;
+  font-size:25px;
+  text-align: center;
+  
+  font-family: "JetBrains Mono",monospace;
+  font-weight:5000;
+  border-radius: 6px;
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+.menubar{
+  display: block;
+  color: #ddd;
+  cursor: pointer;
+  margin: auto;
+}
+.menubar {
+  float: left;
+  display: block;
+  justify-content: center;
+  background-color: #333;
+}
+.checkbox{
+  display: none;
+}
+ .menubar img{
+  padding-top:20px ;
+  display: flex;
+  position: relative;
+  float: left;
+}
+.navbar {
+position: fixed;
+left: -100%;
+overflow: hidden;
+background-color: #333;
+font-family: Arial;
+align-items: center;
+border-radius: 4px;
+display: inline-block;
+justify-content: center;
+margin: auto;
+width: auto;
+}
+/* Links inside the navbar */
+.navbar a {
+float: none;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+/* The dropdown container */
+.dropdown {
+float: none;
+overflow: hidden;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  
+  background-color: #36395A;
+ 
+  border-width: 0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+border-radius: 10px;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+#click:checked ~.navbar{
+
+left:3px;
+}
+.container img{
+left:3px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+.container {
+font-size: 24px;
+cursor: pointer;
+  caret-color: transparent;
+display: flex;
+justify-content:center;
+float: left;
+height: 20px;
+
+}
+
+
+/* Hide the browser's default checkbox */
+.container input {
+display: none;
+}
+
+/* Hide the checked checkbox */
+.img-checked {
+display: none;
+}
+
+
+/* If checked, show the checked image */
+.container input:checked ~ .img-checked {
+display: inline;
+}
+
+/* If checked, hide the unchecked image */
+.container input:checked ~ .img-unchecked {
+display: none;
+}
+/* .navlist{
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  border-radius: 6px;
+}
+.navlist ul,li,a
+{
+  list-style: none;
+  color:#36395A;
+  padding-top:20px ;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inherit{
+  color: inherit;
+  background-color: inherit;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+} */
+}
+
+
+
+
+
+
+
+
+
+menu {
+--size: 20px;
+--radius: 7rem;
+--padding: .5rem;
+--bg-color: rgba(255, 255, 255, 0.9);
+--fg-color: rgba(0, 0, 0, 0.7);
+--hi-color: #12192c;
+font-size: 29px;
+position: fixed;
+bottom: var(--padding);
+right: var(--padding);
+}
+
+menu > * {
+position: absolute;
+
+display: grid;
+place-content: center;
+
+border-radius: 50%;
+font-size: 29px;
+background: var(--bg-color);
+color: var(--fg-color);
+
+text-decoration: none;
+
+box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.6);
+}
+
+menu > .action {
+--factor: 0;
+width: 2.5rem;
+height: 2.5rem;
+right: calc(1.35 * var(--size));
+bottom: calc(1.35 * var(--size));
+
+opacity: 0;
+
+transform: rotate(calc(-1 * var(--angle))) translateY(calc(-1 * var(--radius) * var(--factor))) rotate(var(--angle));
+
+transition: transform 250ms ease-in-out, opacity 250ms ease-in-out, box-shadow 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+menu > .action:hover, menu > .trigger:hover {
+color: var(--hi-color);
+box-shadow: 0px 0px 0px 0.35rem rgba(0, 0, 0, 0.2);
+}
+
+menu.open > .action {
+--factor: 1;
+font-size: 20px;
+opacity: 1;
+}
+
+menu > .action:nth-child(1) {
+--angle: 0deg;
+transition-delay: 0ms;
+}
+
+menu > .action:nth-child(2) {
+--angle: 30deg;
+transition-delay: 50ms;
+}
+
+menu > .action:nth-child(3) {
+--angle: 60deg;
+transition-delay: 100ms;
+}
+
+menu > .action:nth-child(4) {
+--angle: 90deg;
+transition-delay: 150ms;
+}
+
+menu > .trigger {
+width: calc(1.9 * var(--size));
+height: calc(1.9 * var(--size));
+bottom: 0;
+right: 0;
+
+font-size: 2rem;
+transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+menu > .trigger > i {
+transition: transform 250ms ease-in-out;
+}
+
+menu.open > .trigger > i {
+transform: rotate(-135deg);
+}
+
+.credit a{
+text-decoration: none;
+color: #000;
+font-weight: 800;
+}
+
+.credit {
+    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+  position: fixed;
+  bottom :20px;
+  left:40%
+}
+
+
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.take {
+  text-align: center;
+  box-sizing:border-box;
+  margin:20px;
+  background-color: #fafafa;
+  width:100%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:30px;
+}
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
